@@ -151,14 +151,14 @@ Benchmark Method (**ICCV**)[[paper](http://openaccess.thecvf.com/content_ICCV_20
 - <a name="DDCN"></a> **[DDCN]** Removing background interference for crowd counting via de-background detail convolutional network (**Neurocomputing**) [[paper](https://www.sciencedirect.com/science/article/pii/S0925231218315042)]
 - <a name="MRA-CNN"></a> **[MRA-CNN]** Multi-resolution attention convolutional neural network for crowd counting (**Neurocomputing**) [[paper](https://www.sciencedirect.com/science/article/pii/S0925231218312542)]
 - <a name="ACM-CNN"></a> **[ACM-CNN]** Attend To Count: Crowd Counting with Adaptive Capacity Multi-scale CNNs (**Neurocomputing**) [[paper](https://arxiv.org/abs/1908.02797)]
-- <a name="SDA-MCNN"></a> **[SDA-MCNN]** Counting crowds using a scale-distribution-aware network and adaptive human-shaped kernel (**Neurocomputing**) [[paper](https://www.sciencedirect.com/science/article/pii/S0925231219314651)]
+
 - <a name="CAT-CNN"></a> **[CAT-CNN]** Crowd counting with crowd attention convolutional neural network (**Neurocomputing**) [[paper](https://www.sciencedirect.com/science/article/pii/S0925231219316662)]
 - <a name="DENet"></a> **[DENet]** DENet: A Universal Network for Counting Crowd with Varying Densities and Scales (**Neurocomputing**) [[paper](https://arxiv.org/abs/1904.08056)][[code](https://github.com/liuleiBUAA/DENet)]
 - <a name="SCAR"></a> **[SCAR]** SCAR: Spatial-/Channel-wise Attention Regression Networks for Crowd Counting (**Neurocomputing**) [[paper](https://arxiv.org/abs/1908.03716)][[code](https://github.com/gjy3035/SCAR)]
 - <a name="MLCNN"></a> **[GMLCNN]** Learning Multi-Level Density Maps for Crowd Counting (**TNNLS**) [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8848475)]
 - <a name="HA-CCN"></a> **[HA-CCN]** HA-CCN: Hierarchical Attention-based Crowd Counting Network (**TIP**) [[paper](https://arxiv.org/abs/1907.10255)]
 - <a name="PaDNet"></a> **[PaDNet]** PaDNet: Pan-Density Crowd Counting (**TIP**) [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8897143)]
-- <a name="LDL"></a> **[LDL]** Indoor Crowd Counting by Mixture of Gaussians Label Distribution Learning (**TIP**) [[paper](http://palm.seu.edu.cn/xgeng/files/tip19.pdf)]
+
 
 ### 2018
 
@@ -390,89 +390,4 @@ The section is being continually updated. Note that some values have superscript
 | 2018--ECCV | [SANet](#SANet)                              | 258.4 | 334.9  |
 | 2018--IJCAI| [DRSAN](#DRSAN)                              | 219.2 | 250.2  |
 | 2019--AAAI | [GWTA-CCNN](#GWTA-CCNN)                      | 433.7 | 583.3  |
-| 2019--WACV | [SPN](#SPN)                                  | 259.2 | 335.9  |
-| 2019--CVPR | [ADCrowdNet](#ADCrowdNet)(DME)               | 257.1 | 363.5  |
-| 2019--TIP  | [HA-CCN](#HA-CCN)                            | 256.2 | 348.4  |
-| 2019--CVPR | [TEDnet](#TEDnet)                            | 249.4 | 354.5  |
-| 2019--CVPR | [PACNN](#PACNN)                              | 267.9 | 357.8  |
-| 2019--CVPR | [PACNN+CSRNet](#PACNN)                       | 241.7 | 320.7  |
-| 2019--ICCV | [RANet](#RANet)                              | 239.8 | 319.4  |
-| 2019--ICCV | [MBTTBF-SCFB](#MBTTBF)                       | 233.1 | 300.9  |
-| 2019--ICCV | [BL](#BL)                                    | 229.3 | 308.2  |
-| 2019--ICCV | [DSSINet](#DSSINet)                          | 216.9 | 302.4  |
-| 2019--CVPR | [SFCN](#CCWld)                               | 214.2 | 318.2  |
-| 2019--CVPR | **[CAN](#CAN)**                              | 212.2 | **243.7** |
-| 2019--ICCV | [S-DCNet](#S-DCNet)                          | 204.2 | 301.3  |
-| 2019--ICASSP| [ASD](#ASD)                                 | 196.2 | 270.9  |
-| 2019--ICCV | [SPN+L2SM](#L2SM)                            | 188.4 | 315.3 |
-| 2019--TIP  | **[PaDNet](#PaDNet)**                        | **185.8** | 278.3 |
-
-### WorldExpo'10
-| Year-Conference/Journal | Method | S1 | S2 | S3 | S4 | S5 | Avg. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2015--CVPR | [Zhang 2015](#Zhang2015)              | 9.8  | 14.1  | 14.3  | 22.2 | 3.7  | 12.9 |
-| 2016--CVPR | [MCNN](#MCNN)                         | 3.4  | 20.6  | 12.9  | 13.0 | 8.1  | 11.6 |
-| 2017--ICIP | [MSCNN](#MSCNN)                       | 7.8  | 15.4  | 14.9  | 11.8 | 5.8  | 11.7 |
-| 2017--ICCV | [ConvLSTM-nt](#ConvLSTM)              | 8.6  | 16.9  | 14.6  | 15.4 | 4.0  | 11.9 |
-| 2017--ICCV | [ConvLSTM](#ConvLSTM)                 | 7.1  | 15.2  | 15.2  | 13.9 | 3.5  | 10.9 |
-| 2017--ICCV | [Bidirectional   ConvLSTM](#ConvLSTM) | 6.8  | 14.5  | 14.9  | 13.5 | 3.1  | 10.6 |
-| 2017--CVPR | [Switching CNN](#SCNN)                | 4.4  | 15.7  | 10.0  | 11.0 | 5.9  | 9.4  |
-| 2017--ICCV | [CP-CNN](#CP-CNN)                     | 2.9  | 14.7  | 10.5  | 10.4 | 5.8  | 8.86 |
-| 2018--AAAI | [TDF-CNN](#TDF-CNN)                   | 2.7  | 23.4  | 10.7  | 17.6 | 3.3  | 11.5 |
-| 2018--CVPR | [IG-CNN](#IG-CNN)                     | 2.6  | 16.1  | 10.15 | 20.2 | 7.6  | 11.3 |
-| 2018--TIP  | [BSAD](#BSAD)                         | 4.1  | 21.7  | 11.9  | 11.0 | 3.5  | 10.5 |
-| 2018--ECCV | [ic-CNN](#ic-CNN)                     | 17.0 | 12.3  | 9.2   | 8.1  | 4.7  | 10.3 |
-| 2018--CVPR | [DecideNet](#DecideNet)               | 2.0  | 13.14 | 8.9   | 17.4 | 4.75 | 9.23 |
-| 2018--CVPR | [D-ConvNet-v1](#D-ConvNet)            | 1.9  | 12.1  | 20.7  | 8.3  | 2.6  | 9.1  |
-| 2018--CVPR | [CSRNet](#CSR)                        | 2.9  | 11.5  | 8.6   | 16.6 | 3.4  | 8.6  |
-| 2018--WACV | [SaCNN](#SaCNN)                       | 2.6  | 13.5  | 10.6  | 12.5 | 3.3  | 8.5  |
-| 2018--ECCV | [SANet](#SANet)                       | 2.6  | 13.2  | 9.0   | 13.3 | 3.0  | 8.2  |
-| 2018--IJCAI| [DRSAN](#DRSAN)                       | 2.6  | 11.8  | 10.3  | 10.4 | 3.7  | 7.76 |
-| 2018--CVPR | [ACSCP](#ACSCP)                       | 2.8  | 14.05 | 9.6   | 8.1  | 2.9  | 7.5  |
-| 2019--ICCV | [PGCNet](#PGCNet)                     | 2.5  | 12.7  | **8.4** | 13.7 | 3.2 | 8.1 |
-| 2019--CVPR | [TEDnet](#TEDnet)                     | 2.3  | 10.1  | 11.3  | 13.8 | 2.6  | 8.0  |
-| 2019--CVPR | [PACNN](#PACNN)                       | 2.3  | 12.5  | 9.1   | 11.2 | 3.8  | 7.8  |
-| 2019--CVPR | **[ADCrowdNet](#ADCrowdNet)(AMG-bAttn-DME)** | 1.7   | 14.4  | 11.5 | **7.9** | 3.0 | 7.7 |
-| 2019--CVPR | [ADCrowdNet](#ADCrowdNet)(AMG-attn-DME)      | 1.6   | 13.2  | 8.7  | 10.6    | 2.6 | 7.3 |
-| 2019--CVPR | **[CAN](#CAN)**                       | 2.9  | 12.0  | 10.0  | **7.9** | 4.3 | 7.4  |
-| 2019--CVPR | **[CAN](#CAN)(ECAN)**                 | 2.4  | **9.4** | 8.8 | 11.2 | 4.0 | 7.2 |
-| 2019--ICCV | **[DSSINet](#DSSINet)**               | **1.57**  | 9.51 | 9.46 | 10.35 | **2.49** | **6.67** |
-
-
-
-### UCSD
-
-| Year-Conference/Journal | Method | MAE | MSE |
-| --- | --- | --- | --- |
-| 2015--CVPR | [Zhang 2015](#Zhang2015)                | 1.60 | 3.31 |
-| 2016--ECCV | [Hydra-CNN](#Hydra-CNN)                 | 1.65 |  -   |
-| 2016--ECCV | [CNN-Boosting](#CNN-Boosting)           | 1.10 |  -   |
-| 2016--CVPR | [MCNN](#MCNN)                           | 1.07 | 1.35 |
-| 2017--ICCV | [ConvLSTM-nt](#ConvLSTM)                | 1.73 | 3.52 |
-| 2017--CVPR | [Switching CNN](#SCNN)                  | 1.62 | 2.10 |
-| 2017--ICCV | [ConvLSTM](#ConvLSTM)                   | 1.30 | 1.79 |
-| 2017--ICCV | [Bidirectional   ConvLSTM](#ConvLSTM)   | 1.13 | 1.43 |
-| 2018--CVPR | [CSRNet](#CSR)                          | 1.16 | 1.47 |
-| 2018--CVPR | [ACSCP](#ACSCP)                         | 1.04 | 1.35 |
-| 2018--ECCV | [SANet](#SANet)                         | 1.02 | 1.29 |
-| 2018--TIP  | [BSAD](#BSAD)                           | 1.00 | 1.40 |
-| 2019--WACV | [SPN](#SPN)                             | 1.03 | 1.32 |
-| 2019--ICCV | [SPANet+SANet](#SPANet)                 | 1.00 | 1.28 |
-| 2019--CVPR | [ADCrowdNet](#ADCrowdNet)(DME)          | 0.98 | 1.25 |
-| 2019--BMVC | [E3D](#E3D)                             | 0.93 | 1.17 |
-| 2019--CVPR | [PACNN](#PACNN)                         | 0.89 | 1.18 |
-| 2019--TIP  | **[PaDNet](#PaDNet)**                   | **0.85** | **1.06** |
-
-### Mall
-
-| Year-Conference/Journal | Method | MAE | MSE |
-| --- | --- | --- | --- |
-| 2012--BMVC | [Chen 2012](#Chen2012)                  | 3.15 | 15.7 |
-| 2016--ECCV | [CNN-Boosting](#CNN-Boosting)           | 2.01 |  -   |
-| 2017--ICCV | [ConvLSTM-nt](#ConvLSTM)               | 2.53 | 11.2 |
-| 2017--ICCV | [ConvLSTM](#ConvLSTM)                   | 2.24 | 8.5  |
-| 2017--ICCV | [Bidirectional   ConvLSTM](#ConvLSTM)   | 2.10 | 7.6  |
-| 2018--CVPR | [DecideNet](#DecideNet)                 | 1.52 | 1.90 |
-| 2018--IJCAI| [DRSAN](#DRSAN)                         | 1.72 | 2.1  |
-| 2019--BMVC | [E3D](#E3D)                             | 1.64 | 2.13 |
-| 2019--WACV | **[SAAN](#SAAN)**                       | **1.28** | **1.68** |
+| 2019--WACV | [SPN](#SPN)                                  | 259.2 | 
